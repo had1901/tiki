@@ -1,0 +1,1950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/giohang.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://salt.tikicdn.com/media/upload/2018/12/03/8bd2f9756646e32ebb076b2f6b050380.png">
+    <link rel="stylesheet" href="taikhoan.html">
+    <title>Tiki - Mua hàng online tiện lợi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <div class="main__cart">
+        <!-- Banner Top -->
+        <div class="top" style="background-image: linear-gradient(to left bottom, #48d1f3, #ffa697)">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <a href="" class="top-link">
+                        <img src="./assets/img/banner-top.gif" alt="" class="top-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+        <!-- Header -->
+            <div class="app__header">
+                <div class="grid wide">
+                    <div class="row app__header-row-top no-gutters">
+                        <div class="header__main">
+                            <!-- <input type="checkbox" hidden id="menu-mobile-check-input">                  -->
+                            <div id="header__submenu" class="menu__mobile">                             
+                                    <i class="fa-solid fa-bars menu__mobile-icon"></i>                      
+                            </div>   
+                            <div style="display: none;" class="overlay-submenu" id="overlay-submenu-1">   
+                                <div id="id_submenu-mobile" class="submenu-mobile">
+                                    <a href="giohang.html" class="submenu-mobile-item submenu-mobile-cart">
+                                        <div class="wp-sub-icon">
+                                            <i class="fa-solid fa-cart-shopping submenu-mobile-cart-icon"></i>
+                                        </div>       
+                                        <h5 class="submenu-mobile-text">Giỏ hàng</h5>                                 
+                                    </a>
+                                    <a href="" class="submenu-mobile-item submenu-mobile-login"> 
+                                        <div class="wp-sub-icon">
+                                            <i class="fa-solid fa-right-to-bracket submenu-mobile-login-icon"></i>
+                                        </div>
+                                        <h5 class="submenu-mobile-text">Đăng Nhập / Đăng Ký</h5>
+                                    </a>
+                                    <a href="taikhoan.html" class="submenu-mobile-item submenu-mobile-accout">
+                                        <div class="wp-sub-icon">
+                                            <i class="fa-solid fa-user submenu-mobile-accout-icon"></i>
+                                        </div>         
+                                        <h5 class="submenu-mobile-text">Tài Khoản</h5>        
+                                    </a>
+                                    <a href="" class="submenu-mobile-item submenu-mobile-logout">
+                                        <div class="wp-sub-icon">
+                                            <i class="fa-solid fa-right-from-bracket submenu-mobile-logout-icon"></i>
+                                        </div>       
+                                        <h5 class="submenu-mobile-text">Đăng Xuất</h5>                                 
+                                    </a>
+                                    
+                                </div>
+                            </div>  
+                            <div class="header__main-logo">
+                                <a href="index.html" class="header__main-logo-link">
+                                    <img src="./assets/img/logo.png" alt="" class="header__main-logo-link-img">
+                                </a>                           
+                            </div>
+                            <div class="header__main-search">
+
+                                <input type="text" class="header__main-search-input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn...">
+                                <input type="text" class="header__main-search-input header__main-search-input-tablet" placeholder="Tìm sản phẩm, thương hiệu mong muốn...">
+                                <!-- Lịch sử tìm kiếm -->
+                                <div id="history__dropdown" class="history">
+                                    <div class="history-search">
+                                        <h3 class="history__heading">Samsung Sale To</h3>
+                                        <img src="./assets/img/samsungsale.webp" alt="" class="history__heading-img">
+                                    </div>
+                                    <ul class="history_list">
+                                        <li class="history__list-item">
+                                            
+                                            <a href="" class="history__list-item-link">
+                                                <img src="./assets/img/watchtime.png" alt="" class="history__list-item-icon">
+                                                <span class="history__search-product">máy lọc nước pureit</span>  
+                                            </a>
+                                            <i class="ti-close close-x"></i>
+                                        </li>
+                                        <li class="history__list-item">
+                                            <a href="" class="history__list-item-link">
+                                                <img src="./assets/img/watchtime.png" alt="" class="history__list-item-icon">
+                                                <span class="history__search-product">nhà thờ đức bà paris</span> 
+                                            </a>
+                                            <i class="ti-close close-x"></i>
+                                        </li>
+                                        <li class="history__list-item">
+                                            <a href="" class="history__list-item-link">
+                                                <img src="./assets/img/kinhlup.png" alt="" class="history__list-item-icon">
+                                                <span class="history__search-product">tai nghe bluetooth</span> 
+                                            </a>
+                                            <i class="ti-close close-x"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="history__see-more">
+                                        <h5 class="history__see-more-text">Xem thêm <i class="ti-angle-down history__see-more-icon"></i></h5>
+                                    </div>
+                                    <div class="history__heading-2">
+                                        <img src="./assets/img/row-red.png" alt="" class="history__heading-2-icon">
+                                        <h5 class="history__heading-2-text-title">Tìm Kiếm Phổ Biến</h5>
+                                    </div>
+                                    <div class="history__heading-products">
+                                        <a href="" class="history__heading-products-link">
+                                            <img src="./assets/img/la-roche.jpg" alt="" class="history__heading-products-img">
+                                            <h5 class="history__heading-2-text">la roche posay official</h5>
+                                        </a>
+                                        <a href="" class="history__heading-products-link">
+                                            <img src="./assets/img/giunhiet.jpg" alt="" class="history__heading-products-img">
+                                            <h5 class="history__heading-2-text">bình giữ nhiệt</h5>
+                                        </a>
+                                        <a href="" class="history__heading-products-link">
+                                            <img src="./assets/img/quantay.jpg" alt="" class="history__heading-products-img">
+                                            <h5 class="history__heading-2-text">quần tây nam</h5>
+                                        </a>
+                                        <a href="" class="history__heading-products-link">
+                                            <img src="./assets/img/dongu.jpg" alt="" class="history__heading-products-img">
+                                            <h5 class="history__heading-2-text">đồ ngủ</h5>
+                                        </a>
+                                        <a href="" class="history__heading-products-link">
+                                            <img src="./assets/img/suabot.jpg" alt="" class="history__heading-products-img">
+                                            <h5 class="history__heading-2-text">sữa bột</h5>
+                                        </a>
+                                        <a href="" class="history__heading-products-link">
+                                            <img src="./assets/img/giayboot.jpg" alt="" class="history__heading-products-img">
+                                            <h5 class="history__heading-2-text">giày boot nữ</h5>
+                                        </a>
+                                    </div>
+                                    <div class="history__heading-3">
+                                        <h5 class="history__heading-3-text">Danh Mục Nổi Bật</h5>                   
+                                    </div>
+                                    <div class="highlight">
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/gaubong.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">Đồ Chơi - Mẹ & Bé</h5>
+                                        </a>
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/ngon.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">TikiNgon</h5>
+                                        </a>
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/dienthoai.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">Điện Thoại - Máy Tính Bảng</h5>
+                                        </a>
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/lamdep.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">Làm Đẹp - Sức Khỏe</h5>
+                                        </a>
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/dogiadung.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">Điện Gia Dụng</h5>
+                                        </a>
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/thoitrangnu.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">Thời trang nữ</h5>
+                                        </a>
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/thoitrangnam.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">Thời trang nam</h5>
+                                        </a>
+                                        <a href="" class="highlight-link">
+                                            <img src="./assets/img/giaydepnu.png" alt="" class="highlight-link-img">
+                                            <h5 class="highlight-link-product-text">Giày - Dép nữ</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- end -->
+                                
+                                
+                                <div class="header__main-search-btn">
+                                    <button class="header__main-search-button">
+                                        <i class="header__main-search-button-icon ti-search"></i>
+                                        <span class="header__main-search-button-text">
+                                            Tìm kiếm
+                                        </span>
+                                    </button>
+                                </div>
+
+
+                                <div class="header__main-search-btn header__main-search-btn-tablet">
+                                    <button class="header__main-search-button">
+                                        <i class="header__main-search-button-icon header__main-search-button-icon-on-mobile ti-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- <label for="search__checkbox-on-mobile" class="label-check-search"></label> -->
+                            <input type="checkbox" hidden id="search__checkbox-on-mobile">   
+                        
+                            <!-- Search Icon Mobile -->
+                            <div for="search__checkbox-on-mobile" id="label__search-id" class="search__mobile search__checkbox-mobile">
+                                <i class="header__main-search-button-icon search__mobile-icon ti-search"></i>
+                            </div>
+                            <!-- end -->
+
+                            <!-- Input DropDown Search Mobile -->
+                            <div  id="search__mobile-down-mobile" class="search__mobile-down" style="display: none;">
+                                <input type="text" class="search__mobile-input" placeholder="Tìm kiếm..."> 
+                            </div>
+                            <!-- end -->
+
+                            <div class="header__main-profile-tablet">
+                                <div class="header__main-profile-img-user header__main-profile-tablet-1">
+                                    <img src="./assets/img/user.png" alt="" class="header__main-profile-icon">
+                                    <div class="header__main-profile-account">
+                                        Tài khoản
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="taikhoan.html" class="profile-page-link">
+                                <div class="header__main-profile">    
+                                    <div class="header__main-profile-img-user">
+                                        <img src="./assets/img/user.png" alt="" class="header__main-profile-icon">
+                                    </div>   
+                                    <div class="header__main-profile-wrapper">
+                                        <span class="header__main-profile-login">Tài Khoản</span>
+                                        <div class="header__main-profile-account">
+                                            Hoàng Anh Đức <img src="./assets/img/arrowDown-icon.png" alt="" class="header__main-profile-account-arrow-icon">
+                                        </div>
+                                    </div> 
+                                </div>
+                            </a>
+                            <a href="giohang.html" class="header__main-cart">
+                                <div class="header__main-cart-item">
+                                    <img src="./assets/img/cart.png" alt="" class="header__main-cart-icon">
+                                    <span class="header__main-cart-icon-child">0</span>
+                                    <span class="header__main-cart-title">Giỏ hàng</span>
+                                </div>
+                            </a>
+                            <div class="cart__drop-down">
+                                <div class="cart__drop-down-title">
+                                    <span class="cart__drop-down-text">Sản phẩm đã thêm vào giỏ</span>
+                                </div>
+                                <div class="cart__drop-down-product">
+                                    <ul class="cart__drop-down-list">
+                                        <li class="cart__drop-down-item">
+                                            <a href="" class="cart__drop-down-item-link">
+                                                <div class="wrap__item">
+                                                    <div class="drop__down">
+                                                        <img src="./assets/img/ip13-pink.webp" alt="" class="drop__down-img">                                                   
+                                                    </div>
+                                                    <div class="drop__down-info">
+                                                        <div class="row-drop-1">
+                                                            <div class="product-title">
+                                                                <h5 class="drop__down-title">iPhone 13 Pink Pro Max 128GB/356GB - Hàng chính hãng</h5>
+                                                            </div>
+                                                            <div class="drop__down-title-price">
+                                                                <span class="drop__down-price-vnd">29.990.000 <span class="vnd">đ</span> </span>
+                                                                <span class="drop__down-price-x">
+                                                                    <i class="fa-light fa-x drop__down-price-x-icon"></i>
+                                                                </span>
+                                                                <span class="drop__down-amount">1</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="drop__down-price">
+                                                            <span class="drop__down-type">Phân loại: 
+                                                                <span class="drop__type">Cao cấp</span>
+                                                            </span>
+                                                            <span class="drop__down-delete">Xóa</span>                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="cart__drop-down-item">
+                                            <a href="" class="cart__drop-down-item-link">
+                                                <div class="wrap__item">
+                                                    <div class="drop__down">
+                                                        <img src="./assets/img/ip13.webp" alt="" class="drop__down-img">                                                   
+                                                    </div>
+                                                    <div class="drop__down-info">
+                                                        <div class="row-drop-1">
+                                                            <div class="product-title">
+                                                                <h5 class="drop__down-title">iPhone 13 White Pro Max 128GB/356GB - Bảo hành 2 năm - Hỗ trợ đổi nếu sản phẩm lỗi từ nhà sản xuất </h5>
+                                                            </div>
+                                                            <div class="drop__down-title-price">
+                                                                <span class="drop__down-price-vnd">31.540.000 <span class="vnd">đ</span> </span>
+                                                                <span class="drop__down-price-x">
+                                                                    <i class="fa-light fa-x drop__down-price-x-icon"></i>
+                                                                </span>
+                                                                <span class="drop__down-amount">2</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="drop__down-price">
+                                                            <span class="drop__down-type">Phân loại: 
+                                                                <span class="drop__type">Cao cấp</span>
+                                                            </span>
+                                                            <span class="drop__down-delete">Xóa</span>                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="cart__drop-down-item">
+                                            <a href="" class="cart__drop-down-item-link">
+                                                <div class="wrap__item">
+                                                    <div class="drop__down">
+                                                        <img src="./assets/img/ip13black.webp" alt="" class="drop__down-img">                                                   
+                                                    </div>
+                                                    <div class="drop__down-info">
+                                                        <div class="row-drop-1">
+                                                            <div class="product-title">
+                                                                <h5 class="drop__down-title">iPhone 13 Black Pro Max 128GB/356GB - Hàng chính hãng - Bảo hành vĩnh viễn</h5>
+                                                            </div>
+                                                            <div class="drop__down-title-price">
+                                                                <span class="drop__down-price-vnd">55.650.000 <span class="vnd">đ</span> </span>
+                                                                <span class="drop__down-price-x">
+                                                                    <i class="fa-light fa-x drop__down-price-x-icon"></i>
+                                                                </span>
+                                                                <span class="drop__down-amount">10</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="drop__down-price">
+                                                            <span class="drop__down-type">Phân loại: 
+                                                                <span class="drop__type">Cao cấp</span>
+                                                            </span>
+                                                            <span class="drop__down-delete">Xóa</span>                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="cart__drop-down-item">
+                                            <a href="" class="cart__drop-down-item-link">
+                                                <div class="wrap__item">
+                                                    <div class="drop__down">
+                                                        <img src="./assets/img/ip12.webp" alt="" class="drop__down-img">                                                   
+                                                    </div>
+                                                    <div class="drop__down-info">
+                                                        <div class="row-drop-1">
+                                                            <div class="product-title">
+                                                                <h5 class="drop__down-title">iPhone 12 Pro Max 128GB/356GB - Hàng xách tay</h5>
+                                                            </div>
+                                                            <div class="drop__down-title-price">
+                                                                <span class="drop__down-price-vnd">19.900.000 <span class="vnd">đ</span> </span>
+                                                                <span class="drop__down-price-x">
+                                                                    <i class="fa-light fa-x drop__down-price-x-icon"></i>
+                                                                </span>
+                                                                <span class="drop__down-amount">5</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="drop__down-price">
+                                                            <span class="drop__down-type">Phân loại: 
+                                                                <span class="drop__type">Cao cấp</span>
+                                                            </span>
+                                                            <span class="drop__down-delete">Xóa</span>                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="cart__drop-down-item">
+                                            <a href="" class="cart__drop-down-item-link">
+                                                <div class="wrap__item">
+                                                    <div class="drop__down">
+                                                        <img src="./assets/img/m1pro.webp" alt="" class="drop__down-img">                                                   
+                                                    </div>
+                                                    <div class="drop__down-info">
+                                                        <div class="row-drop-1">
+                                                            <div class="product-title">
+                                                                <h5 class="drop__down-title">Laptop M1 Pro Max 128GB/356GB - Hàng chính hãng</h5>
+                                                            </div>
+                                                            <div class="drop__down-title-price">
+                                                                <span class="drop__down-price-vnd">23.000.000 <span class="vnd">đ</span> </span>
+                                                                <span class="drop__down-price-x">
+                                                                    <i class="fa-light fa-x drop__down-price-x-icon"></i>
+                                                                </span>
+                                                                <span class="drop__down-amount">3</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="drop__down-price">
+                                                            <span class="drop__down-type">Phân loại: 
+                                                                <span class="drop__type">Cao cấp</span>
+                                                            </span>
+                                                            <span class="drop__down-delete">Xóa</span>                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="cart__drop-down-item">
+                                            <a href="" class="cart__drop-down-item-link">
+                                                <div class="wrap__item">
+                                                    <div class="drop__down">
+                                                        <img src="./assets/img/apple-macbook.webp" alt="" class="drop__down-img">                                                   
+                                                    </div>
+                                                    <div class="drop__down-info">
+                                                        <div class="row-drop-1">
+                                                            <div class="product-title">
+                                                                <h5 class="drop__down-title">Macbook Pro Max 1TB - Hàng chính hãng - Bảo hành 100 năm</h5>
+                                                            </div>
+                                                            <div class="drop__down-title-price">
+                                                                <span class="drop__down-price-vnd">1.000.000 <span class="vnd">đ</span> </span>
+                                                                <span class="drop__down-price-x">
+                                                                    <i class="fa-light fa-x drop__down-price-x-icon"></i>
+                                                                </span>
+                                                                <span class="drop__down-amount">2</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="drop__down-price">
+                                                            <span class="drop__down-type">Phân loại: 
+                                                                <span class="drop__type">Cao cấp</span>
+                                                            </span>
+                                                            <span class="drop__down-delete">Xóa</span>                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="cart__drop-down-item">
+                                            <a href="" class="cart__drop-down-item-link">
+                                                <div class="wrap__item">
+                                                    <div class="drop__down">
+                                                        <img src="./assets/img/galaxyZ.webp" alt="" class="drop__down-img">                                                   
+                                                    </div>
+                                                    <div class="drop__down-info">
+                                                        <div class="row-drop-1">
+                                                            <div class="product-title">
+                                                                <h5 class="drop__down-title">Samsung Galaxy Z 128GB/356GB - Hàng chính hãng - Ngon</h5>
+                                                            </div>
+                                                            <div class="drop__down-title-price">
+                                                                <span class="drop__down-price-vnd">16.000.000 <span class="vnd">đ</span> </span>
+                                                                <span class="drop__down-price-x">
+                                                                    <i class="fa-light fa-x drop__down-price-x-icon"></i>
+                                                                </span>
+                                                                <span class="drop__down-amount">2</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="drop__down-price">
+                                                            <span class="drop__down-type">Phân loại: 
+                                                                <span class="drop__type">Cao cấp</span>
+                                                            </span>
+                                                            <span class="drop__down-delete">Xóa</span>                       
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row app__header-row-bot no-gutters">
+                        <div class="header__logo-bottom-wrapper">
+                            <div class="header__logo-freeship">
+                                <a href="index.html" class="header__logo-freeship-link">
+                                    <img src="./assets/img/logo-freeship.png" class="header__logo-freeship-img">
+                                </a>  
+                            </div>
+                            <!-- Danh sách tìm kiếm -->
+                            <div class="header__search-list">
+                                <a href="" class="header__search-link">trái cây</a>
+                                <a href="" class="header__search-link">thịt, trứng</a>
+                                <a href="" class="header__search-link">rau củ quả</a>
+                                <a href="" class="header__search-link">sữa, bơ, phô mai</a>
+                                <a href="" class="header__search-link">hải sản</a>
+                                <a href="" class="header__search-link">gạo, mì ăn liền</a>
+                                <a href="" class="header__search-link">đồ uống, bia rượu</a>
+                                <a href="" class="header__search-link">bánh kẹo</a>
+                            </div>
+                            <!-- end -->
+                            <div class="header__search-list header__search-list-tablet">
+                                <a href="" class="header__search-link header__search-link-tablet">trái cây</a>
+                                <a href="" class="header__search-link header__search-link-tablet">thịt, trứng</a>
+                                <a href="" class="header__search-link header__search-link-tablet">rau củ quả</a>
+                                <a href="" class="header__search-link header__search-link-tablet">sữa, bơ, phô mai</a>
+                            </div>
+
+
+                            <div class="header__seller">
+                                <img src="./assets/img/icon-seller.svg" alt="" class="header__seller-icon">
+                                <a href="" class="header__seller-text">Bán hàng cùng Tiki</a>
+                            </div>
+                        </div>  
+                    </div>
+
+
+
+                </div>
+            </div>
+            <!-- end -->
+
+        <!-- Content Cart -->
+        <div class="container__cart">
+            <div class="wrap__content-cart">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12 m-12">
+                            <div class="free__shiping">
+                                <h5 class="free__title">Miễn phí vận chuyển đơn từ 149k của mỗi nhà bán có logo 
+                                    <img src="./assets/img/logo-freeshiping-color.png" alt="" class="free__img">
+                                    <img src="./assets/img/icons8-alert-32.png" alt="" class="free__icon">
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cart-heading">
+                        <div class="col l-7 m-7">
+                            <div class="cart__title">
+                                <h5 class="cart__title-text">Giỏ hàng</h5>
+                            </div>
+                        </div>
+                        <div class="col l-5 m-5">
+                            <div class="cart__title-tiki__ngon">
+                                <img src="./assets/img/cart-tiki-ngon.svg" alt="" class="cart__title-tiki__ngon-img">
+                                <h5 class="cart__title-tiki__ngon-text">TikiNGON</h5>
+                            </div>
+                        </div>               
+                    </div>
+                    <div class="row">
+                        <div class="col l-9 m-12 c-12">
+                            <div class="col-cart-1">
+                                <div class="row">
+                                    <div class="col l-12 m-12 c-12">
+                                        <div class="wp__cart-header">
+                                            <div class="cart__header-product-all">
+                                                <input type="checkbox" class="cart__input"></input>
+                                                <span class="cart__checkbox-fake"></span>
+                                                <span class="cart__header-text">Tất cả (2 sản phẩm)</span>
+                                            </div>
+                                                <div class="cart__bill">
+                                                    <span class="cart__bill-text">Đơn giá</span>
+                                                </div>
+                                                <div class="cart__amount">
+                                                    <span class="cart__amount-text">Số lượng</span>
+                                                </div>
+                                                <div class="cart__total-money">
+                                                    <span class="cart__total-money-text">Thành tiền</span>
+                                                </div>
+                                                <div class="cart__delete">
+                                                    <i class="ti-trash cart__delete-icon"></i>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row-item">
+                                    <div class="col l-12 m-12 c-12 margin-bot">
+                                        <div class="wp__cart-list">
+                                            <div class="cart__name-shop">
+                                                <input type="checkbox" class="cart__name-shop-input">
+                                                <span class="cart__name-shop-checkbox-fake"></span>
+                                                <a href="" class="wp__cart__name-shop">
+                                                    <i class="ti-home wp__cart__name-shop-icon"></i>
+                                                    <h5 class="wp__cart__name-shop-title">Julido Store</h5>
+                                                    <i class="ti-angle-right wp__cart__name-shop-icon-row"></i>
+                                                </a>
+                                            </div>
+                                            <div class="cart__line">
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1 cart__line-buy-text-1-none">1</span>
+                                                    <span class="cart__line-buy-text-2 cart__line-buy-text-2-none"></span>
+                                                    <span class="cart__line-buy-text-3">Mua</span>
+                                                </div>
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1">-30K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">149k</span>
+                                                </div>
+                                                <div class="cart__line-buy cart__line-buy-2">
+                                                    <span class="cart__line-buy-text-1">-50K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">299K</span>
+                                                </div>
+                                                <div class="img-logo-free">
+                                                    <img src="./assets/img/logo-freeshiping-color.png" class="cart__line-buy-img"></img>
+                                                </div>                                          
+                                            </div>
+                                            <div class="cart__list-title">
+                                                <span class="cart__list-title-text">Để nhận Freeship 30k</span>
+                                                <span class="cart__list-title-text__buy-more">Mua thêm 149k</span>
+                                                <i class="ti-angle-down cart__list-title-icon"></i>
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/quan-jean-nu.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Quần jean nữ Lưng Cao Julido Store, chất jean co dãn 4 chiều ống ôm bó sát body
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/ao-hoodie.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Áo Hoodie Nữ Julido, áo khoác nữ thu đông form rộng mẫu HĐ08
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">450.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">600.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__product-shop-sale">
+                                                <span class="cart__product-shop-sale-title">Shop Khuyến Mãi</span>
+                                                <span class="cart__product-shop-sale-title-2">Vui lòng chọn sản phẩm trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-12 m-12 margin-bot">
+                                        <div class="wp__cart-list">
+                                            <div class="cart__name-shop">
+                                                <input type="checkbox" class="cart__name-shop-input">
+                                                <span class="cart__name-shop-checkbox-fake"></span>
+                                                <div class="wp__cart__name-shop">
+                                                    <i class="ti-home wp__cart__name-shop-icon"></i>
+                                                    <h5 class="wp__cart__name-shop-title">Banbuonsile</h5>
+                                                </div>
+                                            </div>
+                                            <div class="cart__line">
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1 cart__line-buy-text-1-none">1</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">Mua</span>
+                                                </div>
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1">-30K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">149k</span>
+                                                </div>
+                                                <div class="cart__line-buy cart__line-buy-2">
+                                                    <span class="cart__line-buy-text-1">-50K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">299K</span>
+                                                </div>
+                                                <div class="img-logo-free">
+                                                    <img src="./assets/img/logo-freeshiping-color.png" class="cart__line-buy-img"></img>
+                                                </div>                                          
+                                            </div>
+                                            <div class="cart__list-title">
+                                                <span class="cart__list-title-text">Để nhận Freeship 30k</span>
+                                                <span class="cart__list-title-text__buy-more">Mua thêm 149k</span>
+                                                <i class="ti-angle-down cart__list-title-icon"></i>
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__product-shop-sale">
+                                                <span class="cart__product-shop-sale-title">Shop Khuyến Mãi</span>
+                                                <span class="cart__product-shop-sale-title-2">Vui lòng chọn sản phẩm trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-12 m-12 margin-bot">
+                                        <div class="wp__cart-list">
+                                            <div class="cart__name-shop">
+                                                <input type="checkbox" class="cart__name-shop-input">
+                                                <span class="cart__name-shop-checkbox-fake"></span>
+                                                <div class="wp__cart__name-shop">
+                                                    <i class="ti-home wp__cart__name-shop-icon"></i>
+                                                    <h5 class="wp__cart__name-shop-title">Banbuonsile</h5>
+                                                </div>
+                                            </div>
+                                            <div class="cart__line">
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1 cart__line-buy-text-1-none">1</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">Mua</span>
+                                                </div>
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1">-30K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">149k</span>
+                                                </div>
+                                                <div class="cart__line-buy cart__line-buy-2">
+                                                    <span class="cart__line-buy-text-1">-50K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">299K</span>
+                                                </div>
+                                                <div class="img-logo-free">
+                                                    <img src="./assets/img/logo-freeshiping-color.png" class="cart__line-buy-img"></img>
+                                                </div>                                          
+                                            </div>
+                                            <div class="cart__list-title">
+                                                <span class="cart__list-title-text">Để nhận Freeship 30k</span>
+                                                <span class="cart__list-title-text__buy-more">Mua thêm 149k</span>
+                                                <i class="ti-angle-down cart__list-title-icon"></i>
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__product-shop-sale">
+                                                <span class="cart__product-shop-sale-title">Shop Khuyến Mãi</span>
+                                                <span class="cart__product-shop-sale-title-2">Vui lòng chọn sản phẩm trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col l-12 m-12 margin-bot">
+                                        <div class="wp__cart-list">
+                                            <div class="cart__name-shop">
+                                                <input type="checkbox" class="cart__name-shop-input">
+                                                <span class="cart__name-shop-checkbox-fake"></span>
+                                                <div class="wp__cart__name-shop">
+                                                    <i class="ti-home wp__cart__name-shop-icon"></i>
+                                                    <h5 class="wp__cart__name-shop-title">Banbuonsile</h5>
+                                                </div>
+                                            </div>
+                                            <div class="cart__line">
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1 cart__line-buy-text-1-none">1</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">Mua</span>
+                                                </div>
+                                                <div class="cart__line-buy">
+                                                    <span class="cart__line-buy-text-1">-30K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">149k</span>
+                                                </div>
+                                                <div class="cart__line-buy cart__line-buy-2">
+                                                    <span class="cart__line-buy-text-1">-50K</span>
+                                                    <span class="cart__line-buy-text-2"></span>
+                                                    <span class="cart__line-buy-text-3">299K</span>
+                                                </div>
+                                                <div class="img-logo-free">
+                                                    <img src="./assets/img/logo-freeshiping-color.png" class="cart__line-buy-img"></img>
+                                                </div>                                          
+                                            </div>
+                                            <div class="cart__list-title">
+                                                <span class="cart__list-title-text">Để nhận Freeship 30k</span>
+                                                <span class="cart__list-title-text__buy-more">Mua thêm 149k</span>
+                                                <i class="ti-angle-down cart__list-title-icon"></i>
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__item">
+                                                <input type="checkbox" class="cart__item-input">
+                                                <span class="cart__item-input-checkbox-fake"></span>
+                                                <div class="cart__item-img-text">
+                                                    <img src="./assets/img/tuigiunhiet.webp" alt="" class="cart__item-img">
+                                                    <div class="cart__item-info-product">
+                                                        <div class="wp__info-product">                                                     
+                                                            <h5 class="cart__item-text">
+                                                                <img src="./assets/img/cart-tiki-now.png" alt="" class="cart__item-info-product-img">
+                                                                Combo 10 Miếng Dán Giữ Nhiệt Chuột Túi - Hàng Loại 1
+                                                            </h5>
+                                                        </div>
+                                                        <span class="cart__item-text-2">Giao trong ngày</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart__price">
+                                                    <span class="cart__price-vnd">130.000 
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                    <span class="cart__price-vnd-cost">250.200
+                                                        <span class="vnd">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="wrap__cart-amount-number">
+                                                    <img src="./assets/img/-.svg" alt="" class="wrap__cart-amount-number-img">
+                                                    <input type="tel" class="wrap__cart-amount-number-input" value="1">
+                                                    <img src="./assets/img/+.svg" alt="" class="wrap__cart-amount-number-img">
+                                                </div>
+                                                <div class="sum__money">
+                                                    <span class="sum__money-vnd">130.000
+                                                        <span class="sum__money-vnd-unit">đ</span>
+                                                    </span>
+                                                </div>
+                                                <div class="cart__recycle">
+                                                    <i class="ti-trash cart__delete-icon cart__recycle-icon"></i>
+                                                    
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="cart__product-shop-sale">
+                                                <span class="cart__product-shop-sale-title">Shop Khuyến Mãi</span>
+                                                <span class="cart__product-shop-sale-title-2">Vui lòng chọn sản phẩm trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-cart-2">
+                                
+                            </div>
+                        </div>
+                        <div class="col l-3 m-12">
+                            <div class="row">
+                                <div class="col l-12 m-12">
+                                    <div class="cart__address">
+                                        <div class="cart__address-header">
+                                            <span class="cart__address-header-title">Giao tới</span>
+                                            <span class="cart__address-header-title-change">Thay đổi</span>
+                                        </div>
+                                        <div class="cart__address-name-phone">
+                                            <span class="cart__address-name-user">Hoàng Anh Đức</span>
+                                            <span class="cart__address-number-phone">0123456789</span>
+                                        </div>
+                                        <div class="cart__address-street">
+                                            <span class="cart__address-street-name">Khu tập thể khu A - Đại học Công nghiệp Hà Nội - Ngõ 296 - Đường Cầu Diễn - Phường Minh Khai, Quận Bắc Từ Liêm, Hà Nội</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col l-12 m-12 margin-top">
+                                    <div class="cart__program">
+                                        <div class="cart__program-header">
+                                            <span class="cart__program-title">Tiki Khuyến Mãi</span>
+                                            <span class="cart__program-title-caption">Có thể chọn 2
+                                                <img src="./assets/img/icons8-alert-32.png" alt="" class="cart__program-icon free__icon-2">
+                                            </span>
+                                        </div>
+                                        <div class="cart__program-option">
+                                            <span class="cart__program-option-text">
+                                                <img src="./assets/img/discount.png" alt="" class="cart__program-discount">
+                                                Chọn hoặc nhập Khuyến mãi khác
+                                            </span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col l-12 m-12 margin-top">
+                                    <div class="cart__total">
+                                        <div class="cart__total-money">
+                                            <span class="cart__total-money-text-5">Tạm tính</span>
+                                            <span class="cart__total-money-number">120.690.000đ</span>
+                                        </div>
+                                        <div class="cart__total-sale">
+                                            <span class="cart__total-sale-text">Giảm giá</span>
+                                            <span class="cart__total-sale-number">30.960.000đ</span>
+                                        </div>
+                                        <div class="cart__total-all">
+                                            <span class="cart__total-all-text">Tổng cộng</span>
+                                            <div class="cart__total-all-change-product">
+                                                <span class="cart__total-all-text-2">Vui lòng chọn sản phẩm</span>
+                                                <span class="cart__total-all-text-3">(Đã bao gồm VAT nếu có)</span>
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>                          
+                                <div class="col l-12 m-12 margin-top">
+                                    <div class="cart__button">
+                                        <button class="cart__button-btn">Mua Hàng (0)</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+        <!-- <div class="gradient">
+            <h2 class="gradient-text">Hello</h2>
+        </div> -->
+        <!-- Footer -->
+        <div class="footer">
+            <div class="grid wide">
+                <div class="row no-gutters">
+                    <div class="col c-12 l-2-4 m-4">
+                        <div class="supports">
+                            <div class="supports-title supports-title-margin-bot">
+                                <h5 class="supports-title-text">Hỗ trợ khách hàng</h5>
+                            </div>
+                            <ul class="supports-list">
+                                <li class="supports-item">
+                                    Hotline:<a href="" class="supports-item-link"> <span class="tell">1900-6035</span> <br> </a>(1000đ/phút, 8-21h kể cả T7,CN)
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Các câu hỏi thường gặp</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Gửi yêu cầu hỗ trợ</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Hướng dẫn đặt hàng</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Phương thức vận chuyển</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Chính sách đổi trả</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Hướng dẫn trả góp</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Chính sách hàng nhập khẩu</a>
+                                </li>
+                                <li class="supports-item">
+                                    Hỗ trợ khách hàng:<a href="" class="supports-item-link"> hotro@tiki.vn</a>
+                                </li>
+                                <li class="supports-item">
+                                    Báo lỗi bảo mật:<a href="" class="supports-item-link"> security@tiki.vn</a>
+                                </li>
+                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col c-12 l-2-4 m-4">
+                        <div class="supports">
+                            <div class="supports-title supports-title-margin-bot">
+                                <h5 class="supports-title-text">Về Tiki</h5>
+                            </div>
+                            <ul class="supports-list">
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Giới thiệu Tiki</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Tuyển dụng</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Chính sách bảo mật thanh toán</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Chính sách bảo mật thông tin cá nhân</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Chính sách giải quyết khiếu nại</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Điều khoản sử dụng</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Giới thiệu Tiki Xu</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Tiếp thị liên kết cùng Tiki</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Bán hàng doanh nghiệp</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col c-12 l-2-4 m-4">
+                        <div class="supports">
+                            <div class="supports-title supports-title-margin-bot">
+                                <h5 class="supports-title-text">Hợp tác và liên kết</h5>
+                            </div>
+                            <ul class="supports-list">
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Quy chế hoạt động Sàn GDTMĐT</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Bán hàng cùng Tiki</a>
+                                </li>                                                                       
+                            </ul>
+                            <div class="supports-title">
+                                <h5 class="supports-title-text">Chứng nhận bởi</h5>
+                            </div>
+                            <ul class="supports-list">
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">                                       
+                                        <img src="./assets/img/bo-cong-thuong-2.png" alt="" class="supports-item-link-img-1">
+                                        <img src="./assets/img/bo-cong-thuong.svg" alt="" class="supports-item-link-img-2">
+                                    </a>
+                                </li>                                                                                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col c-12 l-2-4 m-4">
+                        <div class="supports">
+                            <div class="supports-title supports-title-margin-bot">
+                                <h5 class="supports-title-text">Phương thức thanh toán</h5>
+                            </div>
+                            <ul class="supports-list">
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Quy chế hoạt động Sàn GDTMĐT</a>
+                                </li>
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">Bán hàng cùng Tiki</a>
+                                </li>                                                                       
+                            </ul>
+                            <div class="supports-title">
+                                <h5 class="supports-title-text">Dịch vụ giao hàng</h5>
+                            </div>
+                            <ul class="supports-list">
+                                <li class="supports-item">
+                                    <a href="" class="supports-item-link">                                       
+                                        <img src="./assets/img/tikinow.png" alt="" class="supports-item-link-img-2">
+                                        
+                                    </a>
+                                </li>                                                                                           
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col c-12 l-2-4 m-4">
+                        <div class="supports">
+                            <div class="supports-title supports-title-margin-bot">
+                                <h5 class="supports-title-text">Kết nối với chúng tôi</h5>
+                            </div>
+                            <div class="link-social">
+                                <a href="https://www.facebook.com/profile.php?id=100006224251258" class="supports-item-link-social social-fb">
+                                    <i class="fa-brands fa-facebook icon-social"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100006224251258" class="supports-item-link-social social-ytb">
+                                    <i class="fa-brands fa-youtube icon-social"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100006224251258" class="supports-item-link-social social-tw">
+                                    <i class="fa-brands fa-twitter icon-social"></i>
+                                </a>
+                            </div>
+                                    
+                                
+                                                                                                    
+                            
+                            <div class="supports-title">
+                                <h5 class="supports-title-text">Tải ứng dụng trên điện thoại</h5>
+                            </div>
+                            <div class="supports-qr">
+                                <div class="qr">
+                                    <img src="./assets/img/qrtiki.png" alt="" class="supports-qr-img">
+                                </div>
+                                <div class="download">
+                                    <a href="" class="download-link">
+                                        <img src="./assets/img/appstore.png" alt="" class="supports-appstore-img">
+                                    </a>
+                                    <a href="" class="download-link">
+                                        <img src="./assets/img/ggplay.png" alt="" class="supports-ggplay-img">
+                                    </a>
+                                    
+                                </div>                           
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                <div class="row no-gutters row-2">
+                    <div class="col c-12 m-12 l-12">
+                            <div class="supports supports-mobile supports-margin-top">
+                                <ul class="supports-list ">
+                                    <li class="supports-item">
+                                        <a href="" class="supports-item-link">Địa chỉ văn phòng: 52 Út Tịch, phường 4, quận Tân Bình, thành phố Hồ Chí Minh</a>
+                                    </li>
+                                    <li class="supports-item">
+                                        <a href="" class="supports-item-link">Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</a>
+                                    </li>   
+                                    <li class="supports-item">
+                                        <a href="" class="supports-item-link">Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 06/01/2010</a>
+                                    </li>    
+                                    <li class="supports-item">
+                                        <a href="" class="supports-item-link">© 2022 - Bản quyền thuộc về 
+                                            <a href="https://www.facebook.com/profile.php?id=100006224251258" class="info">Hoàng Anh Đức</a>
+                                        </a>
+                                    </li>                                                                  
+                                </ul>
+                            
+                            </div>
+                    </div>
+                </div>
+                <div class="row no-gutters row-3">
+                    <div class="col c-12 m-12 l-12">
+                        <div class="supports supports-mobile">
+                            <div class="supports-title">
+                                <h5 class="supports-title-text">Tiki - Thật nhanh, thật chất lượng, thật rẻ</h5>
+                            </div>
+                            <div class="supports-title-2">
+                                <h5 class="supports-title-text-2">Tiki có tất cả</h5>
+                            </div>
+                            <p class="paragraph">
+                                Với hàng triệu sản phẩm từ các thương hiệu, cửa hàng uy tín, hàng nghìn loại mặt hàng từ 
+                                <a href="" class="paragraph-link">Điện thoại smartphone </a>
+                                tới 
+                                <a href="" class="paragraph-link">Rau củ quả tươi,</a> 
+                                kèm theo dịch vụ giao hàng siêu tốc TikiNOW, Tiki mang đến cho bạn một trải nghiệm mua sắm online bắt đầu bằng chữ tín. Thêm vào đó, ở Tiki bạn có thể dễ dàng sử dụng vô vàn các tiện ích khác như 
+                                <a href="" class="paragraph-link">mua thẻ cào, thanh toán hoá đơn điện nước, các dịch vụ bảo hiểm.</a>
+                            </p>
+                            <div class="supports-title-2">
+                                <h5 class="supports-title-text-2">Khuyến mãi, ưu đãi tràn ngập</h5>
+                            </div>
+                            <p class="paragraph">
+                                Bạn muốn săn giá sốc, Tiki có 
+                                <a href="" class="paragraph-link">giá sốc mỗi ngày </a>
+                                cho bạn! Bạn là tín đồ của các thương hiệu, các 
+                                <a href="" class="paragraph-link">cửa hàng Official chính hãng </a>
+                                đang chờ đón bạn. Không cần săn mã freeship, vì Tiki đã có hàng triệu sản phẩm trong 
+                                <a href="" class="paragraph-link">chương trình Freeship+, </a>
+                                không giới hạn lượt đặt, tiết kiệm thời gian vàng bạc của bạn. Mua thêm gói 
+                                <a href="" class="paragraph-link">TikiNOW tiết kiệm</a> 
+                                để nhận 100% free ship 2h & trong ngày, hoặc mua gói TikiNOW cao cấp để nhận được 100% freeship, áp dụng cho 100% sản phẩm, 100% tỉnh thành Việt Nam. Bạn muốn tiết kiệm hơn nữa? Đã có TikiCARD, 
+                                <a href="" class="paragraph-link">thẻ tín dụng Tiki hoàn tiền 15%</a>
+                                trên mọi giao dịch (tối đa hoàn 600k/tháng)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-none-on-mobile"> 
+                    <div class="row no-gutters row-4 ">
+                        
+                            <div class="col c-12 l-12 ">
+                                <div class="supports-title">
+                                    <h5 class="supports-title-text">Danh Mục Sản Phẩm</h5>
+                                </div>
+                            </div>
+
+                            <div class="col c-12 l-2-4 m-4">
+                                <div class="supports">
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Đồ Chơi - Mẹ & Bé</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                            <a href="" class="supports-item-link">Thời Trang Cho Mẹ Và Bé</a> 
+                                                / <a href="" class="supports-item-link">Đồ chơi</a> 
+                                                / <a href="" class="supports-item-link">Đồ dùng cho bé </a>
+                                                / <a href="" class="supports-item-link">Chăm sóc nhà cửa</a> 
+                                                / <a href="" class="supports-item-link">Chăm sóc mẹ mang thai, sau sinh</a>
+                                                / <a href="" class="supports-item-link">Dinh dưỡng cho bé</a> 
+                                                / <a href="" class="supports-item-link">Tã, Bỉm</a> 
+                                                / <a href="" class="supports-item-link">Dinh dưỡng cho người lớn</a> 
+                                                / <a href="" class="supports-item-link">Dinh dưỡng cho mẹ</a> 
+                                                / <a href="" class="supports-item-link">Thực phẩm ăn dặm</a> 
+                                                / <a href="" class="supports-item-link">Chuẩn bị mang thai</a>
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Thực Phẩm Tươi Sống</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">          
+                                                <a href="" class="supports-item-link">Trái Cây</a> 
+                                                / <a href="" class="supports-item-link">Thịt, Trứng</a>
+                                                / <a href="" class="supports-item-link">Cá, thuỷ hải sản</a> 
+                                                / <a href="" class="supports-item-link">Rau củ quả</a>
+                                                / <a href="" class="supports-item-link">Thực phẩm Việt</a> 
+                                                / <a href="" class="supports-item-link">Sữa, bơ, phô mai</a> 
+                                                / <a href="" class="supports-item-link">Đông lạnh, mát</a> 
+                                                / <a href="" class="supports-item-link">Dầu ăn, gia vị</a> 
+                                                / <a href="" class="supports-item-link">Gạo, mì, nông sản</a> 
+                                                / <a href="" class="supports-item-link">Đồ hộp, đóng gói</a>
+                                                / <a href="" class="supports-item-link">Bia, đồ uống</a>
+                                                / <a href="" class="supports-item-link">Thực phẩm chay</a>
+                                                / <a href="" class="supports-item-link">Dành cho trẻ em</a>
+                                                / <a href="" class="supports-item-link">Bánh kẹo, giỏ quà</a>
+                                                / <a href="" class="supports-item-link">Thức ăn, đồ thú cưng</a>
+                                                / <a href="" class="supports-item-link">Chăm sóc cá nhân</a>
+                                                / <a href="" class="supports-item-link">Chăm sóc nhà cửa</a>
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Điện Thoại - Máy Tính Bảng</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Thời Trang Cho Mẹ Và Bé</a> 
+                                                / <a href="" class="supports-item-link">Điện thoại Smartphone </a> 
+                                                / <a href="" class="supports-item-link">Điện thoại bàn</a>
+                                                / <a href="" class="supports-item-link">Điện thoại phổ thông</a> 
+                                                / <a href="" class="supports-item-link">Máy đọc sách</a>
+                                                / <a href="" class="supports-item-link">Máy tính bảng</a>                 
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Làm Đẹp - Sức Khỏe</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Chăm sóc da mặt</a> 
+                                                / <a href="" class="supports-item-link">Dụng cụ làm đẹp</a> 
+                                                / <a href="" class="supports-item-link">Thực phẩm chức năng</a>
+                                                / <a href="" class="supports-item-link">Trang điểm</a> 
+                                                / <a href="" class="supports-item-link">Chăm sóc cơ thể</a>
+                                                / <a href="" class="supports-item-link">Sản phẩm thiên nhiên & Khác</a>                 
+                                                / <a href="" class="supports-item-link">Chăm sóc tóc và da đầu</a>                 
+                                                / <a href="" class="supports-item-link">Chăm sóc cá nhân</a>                 
+                                                / <a href="" class="supports-item-link">Nước hoa</a>                 
+                                                / <a href="" class="supports-item-link">Hỗ trợ tình dục</a>                 
+                                                / <a href="" class="supports-item-link">Bộ sản phẩm làm đẹp</a>                 
+                                                / <a href="" class="supports-item-link">Dược mỹ phẩm</a>                                 
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Điện Gia Dụng</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Đồ dùng nhà bếp</a> 
+                                                / <a href="" class="supports-item-link">Thiết bị gia đình</a>                
+                                        </li>                                                                            
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col c-12 l-2-4 m-4">
+                                <div class="supports">
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Thời trang nữ</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                            <a href="" class="supports-item-link">Áo nữ </a> 
+                                                / <a href="" class="supports-item-link">Đầm nữ </a> 
+                                                / <a href="" class="supports-item-link">Quần nữ</a>
+                                                / <a href="" class="supports-item-link">Áo liền quần - Bộ trang phục</a> 
+                                                / <a href="" class="supports-item-link">Áo khoác nữ</a>
+                                                / <a href="" class="supports-item-link">Chân váy</a> 
+                                                / <a href="" class="supports-item-link">Trang phục bơi nữ</a> 
+                                                / <a href="" class="supports-item-link">Thời trang bầu và sau sinh</a> 
+                                                / <a href="" class="supports-item-link">Thời trang trung niên</a> 
+                                                
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Thời trang nam</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">          
+                                                <a href="" class="supports-item-link">Áo thun nam </a> 
+                                                / <a href="" class="supports-item-link">Quần nam</a>
+                                                / <a href="" class="supports-item-link">Áo vest - Áo khoác nam</a> 
+                                                / <a href="" class="supports-item-link">Áo sơ mi nam</a>
+                                                / <a href="" class="supports-item-link">Đồ lót nam</a> 
+                                                / <a href="" class="supports-item-link">Áo hoodie nam </a> 
+                                                / <a href="" class="supports-item-link">Đồ ngủ, đồ mặc nhà nam</a> 
+                                                / <a href="" class="supports-item-link">Đồ đôi - Đồ gia đình nam</a> 
+                                                / <a href="" class="supports-item-link">Áo nỉ - Áo len nam</a> 
+                                                / <a href="" class="supports-item-link">Đồ bơi - Đồ đi biển nam</a>
+                                                / <a href="" class="supports-item-link">Quần áo nam trung niên</a>
+                                                / <a href="" class="supports-item-link">Quần áo nam kích cỡ lớn</a>
+                                                
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Giày - Dép nữ</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Giày cao gót</a> 
+                                                / <a href="" class="supports-item-link">Dép - Guốc nữ</a> 
+                                                / <a href="" class="supports-item-link">Giày thể thao nữ</a>
+                                                / <a href="" class="supports-item-link">Giày sandals nữ</a> 
+                                                / <a href="" class="supports-item-link">Giày búp bê </a>
+                                                / <a href="" class="supports-item-link">Giày boots nữ</a>                 
+                                                / <a href="" class="supports-item-link">Giày lười nữ</a>                 
+                                                / <a href="" class="supports-item-link">Phụ kiện giày</a>                 
+                                                / <a href="" class="supports-item-link">Giày Đế xuồng nữ</a>                 
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Giày - Dép nam</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Giày lười nam </a> 
+                                                / <a href="" class="supports-item-link">Giày tây nam</a> 
+                                                / <a href="" class="supports-item-link">Giày thể thao nam</a>
+                                                / <a href="" class="supports-item-link">Dép nam</a> 
+                                                / <a href="" class="supports-item-link">Giày sandals nam</a>
+                                                / <a href="" class="supports-item-link">Phụ kiện giày nam</a>                 
+                                                / <a href="" class="supports-item-link">Giày boots nam</a>                 
+                                                                            
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Túi thời trang nữ</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Túi đeo chéo, túi đeo vai nữ</a> 
+                                                / <a href="" class="supports-item-link">Ví nữ</a>                
+                                                / <a href="" class="supports-item-link">Túi xách tay nữ</a>                
+                                                / <a href="" class="supports-item-link">Túi tote nữ</a>                
+                                                / <a href="" class="supports-item-link">Phụ kiện túi</a>                
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Túi thời trang nam</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Ví nam</a> 
+                                                / <a href="" class="supports-item-link">Túi đeo chéo nam</a>                
+                                                / <a href="" class="supports-item-link">Túi xách công sở nam</a>                
+                                                / <a href="" class="supports-item-link">Túi bao tử, túi đeo bụng</a>                
+                                                            
+                                        </li>                                                                            
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col c-12 l-2-4 m-4">
+                                <div class="supports">
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Balo và Vali</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                            <a href="" class="supports-item-link">Balo</a> 
+                                                / <a href="" class="supports-item-link">Túi du lịch và phụ kiện</a> 
+                                                / <a href="" class="supports-item-link">Balo, cặp, túi chống sốc laptop</a>
+                                                / <a href="" class="supports-item-link">Vali, phụ kiện vali</a>                                                    
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Phụ kiện thời trang</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">          
+                                                <a href="" class="supports-item-link">Phụ kiện thời trang nữ</a> 
+                                                / <a href="" class="supports-item-link">Mắt kính</a>
+                                                / <a href="" class="supports-item-link">Phụ kiện thời trang nam</a>                              
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Đồng hồ và Trang sức</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Trang sức</a> 
+                                                / <a href="" class="supports-item-link">Đồng hồ nữ</a> 
+                                                / <a href="" class="supports-item-link">Đồng hồ nam</a>
+                                                / <a href="" class="supports-item-link">Phụ kiện đồng hồ</a> 
+                                                / <a href="" class="supports-item-link">Đồng hồ trẻ em</a>                                  
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Laptop - Máy Vi Tính - Linh kiện</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Linh Kiện Máy Tính - Phụ Kiện Máy Tính</a> 
+                                                / <a href="" class="supports-item-link">Thiết Bị Văn Phòng - Thiết Bị Ngoại Vi</a> 
+                                                / <a href="" class="supports-item-link">Thiết Bị Mạng</a>
+                                                / <a href="" class="supports-item-link">Thiết Bị Lưu Trữ</a> 
+                                                / <a href="" class="supports-item-link">PC - Máy Tính Bộ</a>
+                                                / <a href="" class="supports-item-link">Phụ kiện giày nam</a>                 
+                                                / <a href="" class="supports-item-link">Laptop</a>                 
+                                                                            
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Nhà Cửa - Đời Sống</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Trang trí nhà cửa</a> 
+                                                / <a href="" class="supports-item-link">Dụng cụ nhà bếp</a>                
+                                                / <a href="" class="supports-item-link">Sửa chữa nhà cửa</a>                
+                                                / <a href="" class="supports-item-link">Ngoài trời & sân vườn</a>                
+                                                / <a href="" class="supports-item-link">Nội thất</a>                
+                                                / <a href="" class="supports-item-link">Đèn & thiết bị chiếu sáng</a>                
+                                                / <a href="" class="supports-item-link">Đồ dùng và thiết bị nhà tắm</a>                
+                                                / <a href="" class="supports-item-link">Đồ dùng phòng ăn</a>                
+                                                / <a href="" class="supports-item-link">Đồ dùng phòng ngủ</a>                
+                                                / <a href="" class="supports-item-link">Đồ thờ cúng</a>                
+                                                / <a href="" class="supports-item-link">Nhạc cụ</a>                
+                                                / <a href="" class="supports-item-link">Hoa tươi và cây cảnh</a>                
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Bách Hóa Online</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Chăm sóc thú cưng</a> 
+                                                / <a href="" class="supports-item-link">Đồ uống - Pha chế dạng bột</a>                
+                                                / <a href="" class="supports-item-link">Thực phẩm Đóng hộp và Khô</a>                
+                                                / <a href="" class="supports-item-link">Gia Vị và Chế Biến</a>                
+                                                / <a href="" class="supports-item-link">Đậu & Hạt Các Loại</a>                
+                                                / <a href="" class="supports-item-link">Đồ Ăn Vặt</a>                
+                                                / <a href="" class="supports-item-link">Sữa và các Sản phẩm từ sữa</a>                
+                                                / <a href="" class="supports-item-link">Đồ Uống Không Cồn</a>                
+                                                / <a href="" class="supports-item-link">Đồ uống có cồn</a>                
+                                                / <a href="" class="supports-item-link">Bộ quà tặng</a>                
+                                                            
+                                        </li>                                                                            
+                                    </ul>
+                                    
+                                </div>
+                            </div>
+
+                            <div class="col c-12 l-2-4 m-4">
+                                <div class="supports">
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Hàng Quốc Tế</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                            <a href="" class="supports-item-link">Nhà Cửa - Đời Sống</a> 
+                                                / <a href="" class="supports-item-link">Thời Trang</a> 
+                                                / <a href="" class="supports-item-link">Ô tô, xe máy, xe đạp</a>
+                                                / <a href="" class="supports-item-link">Thiết Bị Số - Phụ Kiện Số</a>                                                    
+                                                / <a href="" class="supports-item-link">Thể thao - Dã ngoại</a>                                                    
+                                                / <a href="" class="supports-item-link">Làm Đẹp - Sức Khỏe</a>                                                    
+                                                / <a href="" class="supports-item-link">Sách, Văn phòng phẩm & Quà lưu niệm</a>                                                    
+                                                / <a href="" class="supports-item-link">Mẹ & Bé</a>                                                    
+                                                / <a href="" class="supports-item-link">Điện gia dụng</a>                                                    
+                                                / <a href="" class="supports-item-link">Bách hóa online</a>                                                    
+                                                / <a href="" class="supports-item-link">Máy Ảnh - Máy Quay Phim</a>                                                    
+                                                / <a href="" class="supports-item-link">Laptop & Máy Vi Tính</a>                                                    
+                                                / <a href="" class="supports-item-link">Sản phẩm - thiết bị công nghiệp</a>                                                    
+                                                / <a href="" class="supports-item-link">Tivi & Thiết Bị Nghe Nhìn</a>                                                    
+                                                / <a href="" class="supports-item-link">Điện Thoại - Máy Tính Bảng</a>                                                    
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Thiết Bị Số - Phụ Kiện Số</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">          
+                                                <a href="" class="supports-item-link">Phụ Kiện Điện Thoại và Máy Tính Bảng</a> 
+                                                / <a href="" class="supports-item-link">Phụ kiện máy tính và Laptop</a>
+                                                / <a href="" class="supports-item-link">Thiết Bị Âm Thanh và Phụ Kiện</a>                              
+                                                / <a href="" class="supports-item-link">Thiết Bị Thông Minh và Linh Kiện Điện Tử</a>                              
+                                                / <a href="" class="supports-item-link">Thiết Bị Đeo Thông Minh và Phụ Kiện</a>                              
+                                                / <a href="" class="supports-item-link">Thiết Bị Chơi Game và Phụ Kiện</a>                                                            
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Voucher - Dịch vụ</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Thanh toán hóa đơn</a> 
+                                                / <a href="" class="supports-item-link"> Khóa học</a> 
+                                                / <a href="" class="supports-item-link">Du lịch - Khách sạn</a>
+                                                / <a href="" class="supports-item-link">Spa & Làm đẹp</a> 
+                                                / <a href="" class="supports-item-link">Dịch vụ khác</a>                                  
+                                                / <a href="" class="supports-item-link">Nhà hàng - Ăn uống</a>                                  
+                                                / <a href="" class="supports-item-link">Sự kiện - Giải trí</a>                                  
+                                                / <a href="" class="supports-item-link">Nha khoa - Sức khỏe</a>                                  
+                                                / <a href="" class="supports-item-link">Phiếu quà tặng</a>                                  
+                                                / <a href="" class="supports-item-link">Sim số - Thẻ cào - Thẻ game</a>                                  
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Ô Tô - Xe Máy - Xe Đạp</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Phụ kiện - Chăm sóc xe</a> 
+                                                / <a href="" class="supports-item-link">Xe điện </a> 
+                                                / <a href="" class="supports-item-link"> Xe đạp</a>
+                                                / <a href="" class="supports-item-link">Xe máy </a> 
+                                                / <a href="" class="supports-item-link">Ô tô</a>
+                                                / <a href="" class="supports-item-link">Xe Scooter</a>                 
+                                                / <a href="" class="supports-item-link">Dịch vụ, lắp đặt</a>                 
+                                                                            
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Nhà Sách Tiki</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Sách tiếng Việt</a> 
+                                                / <a href="" class="supports-item-link">Văn phòng phẩm</a>                
+                                                / <a href="" class="supports-item-link">Quà lưu niệm</a>                
+                                                / <a href="" class="supports-item-link">English Books</a>                                                                 
+                                        </li>                                                                            
+                                    </ul>                                                      
+                                </div>
+                            </div>
+
+                            <div class="col c-12 l-2-4 m-4">
+                                <div class="supports">
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Điện Tử - Điện Lạnh</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                            <a href="" class="supports-item-link">Âm thanh & Phụ kiện Tivi</a> 
+                                                / <a href="" class="supports-item-link">Phụ kiện điện lạnh</a> 
+                                                / <a href="" class="supports-item-link">Tủ lạnh</a>
+                                                / <a href="" class="supports-item-link">Máy lạnh - Máy điều hòa</a>                                                    
+                                                / <a href="" class="supports-item-link">Máy giặt</a>                                                    
+                                                / <a href="" class="supports-item-link">Tủ đông - Tủ mát</a>                                                    
+                                                / <a href="" class="supports-item-link">Tivi </a>                                                    
+                                                / <a href="" class="supports-item-link">Máy nước nóng</a>                                                    
+                                                / <a href="" class="supports-item-link">Máy rửa chén</a>                                                    
+                                                / <a href="" class="supports-item-link">Máy sấy quần áo</a>                                                    
+                                                / <a href="" class="supports-item-link">Tủ ướp rượu</a>                                                    
+                                                                                                    
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Thể Thao - Dã Ngoại</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">          
+                                                <a href="" class="supports-item-link">Trang phục thể thao nữ</a> 
+                                                / <a href="" class="supports-item-link">Trang phục thể thao nam</a>
+                                                / <a href="" class="supports-item-link">Đồ dùng dã ngoạ</a>                              
+                                                / <a href="" class="supports-item-link">Giày thể thao nam</a>                              
+                                                / <a href="" class="supports-item-link">Phụ kiện thể thao</a>                              
+                                                / <a href="" class="supports-item-link">Dụng cụ - thiết bị tập thể thao</a>                                                            
+                                                / <a href="" class="supports-item-link">Các môn thể thao khác</a>                                                            
+                                                / <a href="" class="supports-item-link">Dụng cụ câu cá</a>                                                            
+                                                / <a href="" class="supports-item-link">Thể thao dưới nước</a>                                                            
+                                                / <a href="" class="supports-item-link">Các môn thể thao đồng đội</a>                                                            
+                                                / <a href="" class="supports-item-link">Các môn thể thao chơi vợt</a>                                                            
+                                                / <a href="" class="supports-item-link">Các môn thể thao đối kháng</a>                                                            
+                                                / <a href="" class="supports-item-link">Giày thể thao nữa</a>                                                            
+                                                / <a href="" class="supports-item-link">Thực phẩm bổ sung năng lượng</a>                                                            
+                                                / <a href="" class="supports-item-link">Dụng cụ leo núi</a>                                                            
+                                        </li>                                                                            
+                                    </ul>
+                                    <div class="supports-title">
+                                        <a href="" class="title-link">
+                                            <h5 class="supports-title-text-2">Máy Ảnh - Máy Quay Phim</h5>
+                                        </a>                            
+                                    </div>
+                                    <ul class="supports-list">
+                                        <li class="supports-item">
+                                                <a href="" class="supports-item-link">Phụ Kiện Máy Ảnh, Máy Quay</a> 
+                                                / <a href="" class="supports-item-link">Camera Giám Sát</a> 
+                                                / <a href="" class="supports-item-link">Thiết Bị Ánh Sáng</a>
+                                                / <a href="" class="supports-item-link">Camera Hành Trình - Action Camera và Phụ Kiện</a> 
+                                                / <a href="" class="supports-item-link">Balo - Túi Đựng - Bao Da</a>                                  
+                                                / <a href="" class="supports-item-link">Ống Kính - Ống Ngắm</a>                                  
+                                                / <a href="" class="supports-item-link">Ống Kính (Lens)</a>                                  
+                                                / <a href="" class="supports-item-link">Thiết Bị Quay Phim</a>                                  
+                                                / <a href="" class="supports-item-link">Máy Bay Camera và Phụ Kiện</a>                                  
+                                                / <a href="" class="supports-item-link">Máy Ảnh</a>                                  
+                                        </li>                                                                            
+                                    </ul>
+                                    
+                                                                                        
+                                </div>
+                            </div>               
+                    </div> 
+                </div>            
+            </div>
+        </div>
+        <!-- end -->
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
